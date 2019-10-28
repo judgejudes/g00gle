@@ -60,6 +60,10 @@ a:visited {
   100% { transform: skewX(0deg); }
 }
 
+/*@media screen and (max-width: 130 px) {*/
+
+/*}*/
+
 .navbar ul {
   margin: 0;
   padding: 20px;
@@ -69,10 +73,10 @@ a:visited {
 
 .navbar li a{
   display: block;
-  color: white;
+  color: grey;
   padding: 8px 30px;
   text-decoration: none;
-    border: 2px dotted white;
+    border: 2px dotted grey;
     text-align: center;
 }
 
