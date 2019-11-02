@@ -82,5 +82,18 @@ a:visited {
 
 .navbar li a:hover {
   background-color: #555;
-  color: green;
+  color: white;
+}
+
+/*for read.html specifically*/
+.the-welcome-title {
+  padding: 30px;
+}
+
+.blog-container {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  
 }
