@@ -87,6 +87,8 @@ a:visited {
 
 /*for read.html specifically*/
 .the-welcome-title {
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
   padding: 30px;
 }
 
@@ -101,17 +103,18 @@ a:visited {
 }
 
 .blog-title {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin: 5px; /*not sure if this should be margin or padding*/
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .post-container {
-  border: 2px solid grey;
-  box-shadow: 5px 10px red;/*, 5px 10px green;*/
+  border: 3px dashed grey;
+  /*box-shadow: 5px 10px red;/*, 5px 10px green;*/
   padding: 50px;
   margin: 20px;
-  width: 250px;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -141,4 +144,5 @@ box-shadow: none;
 #google-images {
   max-width: 100%;
   align-self: center;
+  margin: 10px;
 }
