@@ -1,5 +1,6 @@
 body {
   background-color: black;
+
 }
 
 .text {
@@ -76,7 +77,7 @@ a:visited {
   color: grey;
   padding: 8px 30px;
   text-decoration: none;
-    border: 2px dotted grey;
+    /*border: 2px dotted grey;*/
     text-align: center;
 }
 
@@ -123,13 +124,15 @@ a:visited {
 
 .post-text {
   font-size: 15px;
+  margin-top: 20px;
 
 }
 
-#more {display: none;
-}
+/*#more {display: none;
+}*/
 
-button {
+/*a read more button, in progress*/
+/*button {
 box-shadow: none;
   border: none;
   outline: none;
@@ -140,11 +143,11 @@ box-shadow: none;
   margin-top: 20px;
   &:hover;
     background: darken(#ddd,5%);
-}
+}*/
 
 #google-images { /*Q: are not aligned directly in center*/
   max-width: 100%;
   align-self: center;
-  margin: 10px;
+  margin-right: 10px;
 }
 
