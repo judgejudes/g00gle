@@ -15,7 +15,7 @@ body {
   margin: 20px;
 }
 
-img {
+.index-images {
   padding: 10px;
   height: 200px;
   width: 440px;
@@ -94,6 +94,8 @@ a:visited {
   display: flex;
   /*width: 300px;*/
   flex-wrap: wrap;
+  justify-content: center;
+/*   align-items: center; */
 
   /*box-sizing: border-box;*/
 }
@@ -110,6 +112,9 @@ a:visited {
   padding: 50px;
   margin: 20px;
   width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -117,3 +122,23 @@ a:visited {
   font-size: 15px;
 }
 
+#more {display: none;
+}
+
+button {
+box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #ddd;
+  padding: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+  &:hover;
+    background: darken(#ddd,5%);
+}
+
+#google-images {
+  max-width: 100%;
+  align-self: center;
+}
