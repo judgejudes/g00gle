@@ -91,9 +91,28 @@ a:visited {
 }
 
 .blog-container {
-  width: 300px;
-  border: 15px solid green;
+  display: flex;
+  /*width: 300px;*/
+  flex-wrap: wrap;
+
+  /*box-sizing: border-box;*/
+}
+
+.blog-title {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px; /*not sure if this should be margin or padding*/
+}
+
+.post-container {
+  border: 2px solid grey;
+  box-shadow: 5px 10px red;/*, 5px 10px green;*/
   padding: 50px;
   margin: 20px;
-  
+
 }
+
+.post-text {
+  font-size: 15px;
+}
+
