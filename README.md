@@ -2,7 +2,7 @@
 
 ## Focus:
 	This is an idea that I’ve had for many months now but just felt like I didn’t have the time nor the 
-	confidence to take on such a project. My goal was to create the homepage and finish the “read” page. 
+	confidence to take on such a project.
 	I came up with the idea during my spring quarter off school, which I decided on because I was having a 
 	hard time with my mental health. I felt alone during the first couple months or so, and I turned to 
 	Google for a lot of answers to my questions. Once I started feeling better and more connected with different communities, I randomly looked back at my search history on “My Activity” at Google (https://myactivity.google.com/myactivity) and realized that along with driving directions to the grocery store, I was searching for some answers to my 
